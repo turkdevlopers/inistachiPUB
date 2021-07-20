@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+.taymaz_show {
+    transform: translateX(0px);
+}
+.taymaz_hide {
+    transform: translateX(-350px);
+}
+.inss-chii {
+    position: fixed;
+    display: flex;
+    cursor: pointer;
+    border-radius:5px ;
+    bottom: 60px;
+    left: 40px;
+    width: 52px;
+    height: 47px;
+    border: 1.5px solid ;
+    background: #fff;
+    border-top-color:#ef5da8;
+    border-bottom-color: #7879f1;
+    border-right-color:#ef5da8 ;
+    border-left-color: #7879f1;
+    box-shadow: 15px 8px 15px #0000001a,-15px -8px 15px #0000001a;
+}
+.bi-instachii{
+    margin: 3px auto;
+    color: #ef5da8;
+    width: 35px;
+    height: 30px; 
+}
+.chichi-insta {
+    position: fixed;
+    display: flex;
+    border-radius: 4px;
+    border: 1.25px solid;
+    bottom: 120px;
+    left: 40px;
+    width: 250px;
+    height: 220px;
+    background: #fff;
+    border-top-color:#ef5da8;
+    border-bottom-color: #7879f1;
+    border-right-color:#ef5da8 ;
+    transition: all 0.2s linear;
+    border-left-color: #7879f1;
+    box-shadow: 15px 8px 15px #0000001a,-15px -8px 15px #0000001a;
+    
+}
+#hed-chi {
+    width: 250px;
+    height: 30px;
+    border-bottom: 1.25px solid;
+    border-bottom-color: #ef5da8 ;
+}
+.www-p {
+    background-image: linear-gradient(45deg,#405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: -4px;
+    left: 15px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+.in-exit {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    border: 1.5px solid #2626268a;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.in-exit::before {
+    transform: rotate(45deg);
+}
+.in-exit::before, .in-exit::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 1px;
+    background:#2626268a;
+    display: block;
+    border-radius: 2px;
+}
+.in-exit::after {
+    transform: rotate(-45deg);
+}
+.in-exit::before, .in-exit::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 1px;
+    background: #2626268a;
+    display: block;
+    border-radius: 2px;
+}
+#end-chi {
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 150px;
+    border-top: 1.25px solid;
+    border-top-color: #7879f1 ;
+}
+  .x-start {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    width: 180px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ef5da8;
+    background: #fff;
+    border: 1px solid;
+    border-image-source: linear-gradient(45deg, #7879f1, #ef5da8);
+    border-image-slice: 1;
+    box-shadow: 0px 8px 15px #0000001a;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Jomhuria', cursive;
+    }
+  
+  .x-start:hover {
+    background: #0095f6;
+    box-shadow: 0px 15px 20px #0094f67e;
+    color: #fff;
+    transform: translateY(-7px);
+    border: none;
+    
+  }
+  .tim-chi {
+    position: absolute;
+    display: flex;
+    right: 45px;
+    top: 40px;
+    display: flex;
+    max-width: 180px;
+    color:#000;
+    background: #8080801c;
+    border-radius:2px;
+    font-size: 15px;
+    padding: 2px;
+    font-family: 'Jomhuria', cursive;
+}
+.chat-chi {
+    position: absolute;
+    direction: rtl;
+    display: flex;
+    max-width: 200px;
+    border-radius: 50px 50px 0px;
+   top: 75px;
+   right: 12px;
+   background: #8080802a;
+   color: #000;
+   font-size: 15px;
+   padding: 10px;
+   font-family: 'Harmattan', sans-serif;
+}
+.checkmark {
+    position: absolute;
+    font-family: arial;
+    -ms-transform: scaleX(-1) rotate(-40deg);
+    -webkit-transform: scaleX(-1) rotate(-40deg);
+    transform: scaleX(-1) rotate(-40deg);
+    bottom: 75px;
+   right: 30px;
+   color: #2196f3;
+  }
+  .one-chi {
+    right: 33px;
+  }
