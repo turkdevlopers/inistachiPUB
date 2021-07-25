@@ -1,13 +1,14 @@
 var imgs = function(wich){
-    return document.querySelector('body > div.boxes > div > div:nth-child( '+wich+' ) > img') ;
-} ;
-
-imgs(2).addEventListener('click',function(){
-    window.location.href = "view/def" ;
-}) ;
-imgs(3).addEventListener('click',function(){
-    window.location.href = "view/hgd" ;
-}) ;
-imgs(4).addEventListener('click',function(){
-    window.location.href = "view/tmd" ;
-}) ;
+    console.log('sda') ;
+    return document.querySelector('#portfolio > div > div > div:nth-child( '+wich+' ) > a > div') ;
+  } ;
+  
+  imgs(1).addEventListener('click',function(){
+     window.open("view/def",'_blank')   ;
+  }) ;
+  imgs(2).addEventListener('click',function(){
+     window.open("view/hgd",'_blank')   ;
+  }) ;
+  imgs(3).addEventListener('click',function(){
+     window.open("view/tmd",'_blank')   ;
+  }) ;
